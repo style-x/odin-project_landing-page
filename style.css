@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  min-width: 100vh;
+  width: 100%;
+}
+
+header, nav {
+  background-color: #1F2937;
+}
+
+.navbar {
+  background-color: #1F2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  height: 4rem;
+  width: 100%;
+}
+
+header, section {
+  padding: 4rem 0;
+}
+
+.container {
+  margin: auto;
+  width: 70%;
+}
+
+.hero {
+  display: flex;
+  flex-grow: 1;
+}
+
+.hero div h1 {
+  color: #F9FAF8;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.hero div p {
+  color: #F9FAF8;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.hero img {
+  margin: 1rem;
+}
+
+.navbar h3 {
+  font-size: 24px;
+  color: #F9FAF8
+}
+
+.nav-links a {
+  padding-left: 2rem;
+  color: #E5E7EB;
+  text-decoration: none;
+}
+
+.illu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.illu h2 {
+  padding-bottom: 1rem;
+}
+
+.illustrations {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+#quote {
+  background-color: #E5E7EB;
+}
+
+.quote {
+  padding: 2rem 4rem;
+}
+
+.quote p {
+  color: #1F2937;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.quote .from {
+  font-weight: bold;
+}
+
+button {
+  padding: 0.3rem 1.2rem;
+  border-radius: 0.5rem;
+  border-color: transparent;
+  overflow: hidden;
+  background-color: #3882F6;
+  color: white;
+}
+
+.banner {
+  background-color: #3882F6;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.banner button {
+  border: 2px solid white;
+}
+
+footer {
+  background-color: #1F2937;
+  height: 4rem;
+  color: #E5E7EB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer p {
+  font-size: 0.8rem;
+}
